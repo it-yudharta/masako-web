@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", "Arial";
+}
+
+ul, li {
+	list-style: none;
+}
+
+.tab {
+  float: left;
+  height: 50px;
+}
+
+.content {
+    clear: both;
+}
+
+.side {
+	width: 50%;
+	height: 600px;
+	float: left;
+}
+
+.side .container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.container input[type="text"] {
+  width: 367px;
+  height: 36px;
+  padding: 0 15px;
+  margin: 0 70px;
+}
+
+.container textarea {
+  padding: 15px;
+  margin: 0 0 0 70px;
+  width: 370px;
+}
+
+.container input[type="submit"] {
+  padding: 7px 35px;
+  margin: 0 0 0 356px;
+}
+
+.tab a {
+  padding: 10px 150px;
+  background: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tab a:hover {
+  text-decoration: underline;
+}
+
+.tab:first-child a {
+  background: #efefef;
+  color: #333;
+}
+
+.tab:nth-child(2) a {
+  color: #efefef;
+}
+
+
+/*end of input resep*/
+
+.containerview {
+  width: 100%;
+  margin: auto;
+  overflow: scroll;
+  height: 100%;
+}
+
+.viewJudul img {
+  background: #212121;
+  padding: 20px 30px;
+}
+
+.viewJudul div {
+  padding: 20px;
+  margin-top: 29px;
+  background: #fafafa;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.viewJudul a {
+  width: 100px;
+  padding: 10px;
+  background: #2196F3;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+}
+
+.viewJudul a:hover {
+  text-decoration: underline;
+  background: #1565C0;
+}
+
+.viewJudul a#edit {
+  top: 0;
+  right: 0;
+}
+
+.viewJudul a#delete {
+  top: 38px;
+  right: 0;
+}
